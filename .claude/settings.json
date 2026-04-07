@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(start \"\" \"c:/Users/kdh02/OneDrive/Desktop/업무/잡동사니/개인/portfolio/index.html\")",
+      "Read(//c/Users/kdh02/OneDrive/Desktop/업무/잡동사니/개인/**)"
+    ]
+  }
+}

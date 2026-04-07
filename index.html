@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donghun Kwak - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="inner">
+      <a href="#hero" class="logo">Donghun Kwak</a>
+      <button class="hamburger" onclick="this.classList.toggle('active');this.nextElementSibling.classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#awards">Awards</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="hero">
+    <div class="hero-label">Donghun Kwak</div>
+    <h1>사람과 기술 사이,<br><strong>경험을 연구</strong>합니다.</h1>
+    <div class="hero-divider"></div>
+    <div class="hero-sub">HCI &middot; Game Studies &middot; Computer Science Engineering &middot; Inha University</div>
+    <div class="cta-group">
+      <a href="#about" class="btn btn-primary">About Me</a>
+      <a href="#contact" class="btn btn-outline">Contact</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <p class="section-title">About</p>
+    <div class="content fade-in">
+      <div class="about-text">
+        <h2 class="heading">Researcher & Developer</h2>
+        <p>인하대학교 컴퓨터공학과에서 Total GPA 4.48/4.5를 유지하고 있습니다. Computer Intelligence Security Lab에서 학부 연구생으로 소프트웨어 보안 논문 분석
+          경험을 쌓은 뒤, 현재는 HCI와 게임 연구 분야로 관심을 넓혀가고 있습니다.</p>
+        <p>플레이어 경험, 게임 산업 내 크리에이터 관계 등 사람과 기술이 만나는 접점에 주목하며, 해커톤과 아이디어톤, 인턴십을 통해 실제 서비스를 설계하고 개발해왔습니다.</p>
+      </div>
+      <div class="stats">
+        <div class="stat">
+          <div class="number">4.48</div>
+          <div class="label">Total GPA / 4.5</div>
+        </div>
+        <div class="stat">
+          <div class="number">4.5</div>
+          <div class="label">Major GPA / 4.5</div>
+        </div>
+        <div class="stat">
+          <div class="number">6x</div>
+          <div class="label">Scholarship</div>
+        </div>
+        <div class="stat">
+          <div class="number">3+</div>
+          <div class="label">Awards</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Interests -->
+  <section id="research">
+    <p class="section-title">Research Interest</p>
+    <h2 class="heading">연구 관심 분야</h2>
+    <p style="color: var(--text-muted); margin-bottom: 1.5rem; font-size: 0.95rem;">사람과 기술의 상호작용, 그리고 게임이라는 매체 안에서 벌어지는
+      경험과 관계를 탐구합니다.</p>
+    <div class="interests-list fade-in">
+      <div class="interest-item">Human-Computer Interaction (HCI)</div>
+      <div class="interest-item">Game Studies & Player Experience</div>
+      <div class="interest-item">Computational Approaches to Games Studies</div>
+      <div class="interest-item">Creator-Industry Relationship in Gaming</div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <p class="section-title">Skills</p>
+    <h2 class="heading">기술 스택</h2>
+    <div class="skills-section fade-in">
+      <div class="skill-row">
+        <h3>Languages</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">C++</span>
+          <span class="skill-tag">PHP</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <h3>Web & DB</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">MariaDB</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">PostgreSQL</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <h3>Deep Learning</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">TensorFlow</span>
+          <span class="skill-tag">NumPy</span>
+          <span class="skill-tag">Scikit-learn</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <h3>Parallelization</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">C++11 Multithreading</span>
+          <span class="skill-tag">OpenMP</span>
+          <span class="skill-tag">CUDA</span>
+        </div>
+      </div>
+      <div class="skill-row">
+        <h3>Certifications</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">정보처리기능사</span>
+          <span class="skill-tag">PC정비사 2급</span>
+          <span class="skill-tag">TOEIC 815</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <p class="section-title">Projects</p>
+    <h2 class="heading">프로젝트 경험</h2>
+    <div class="projects-grid fade-in">
+      <div class="project-card">
+        <div class="project-thumb">01</div>
+        <div class="project-info">
+          <div class="award">Honorable Mention</div>
+          <h3>2025 GreenTech Globalthon</h3>
+          <p>외국인 유학생의 한국 대학 입학 절차를 돕기 위한 정보 서비스 플랫폼을 설계했습니다.</p>
+          <div class="tags">
+            <span class="tag">GDGoC</span>
+            <span class="tag">Service Design</span>
+            <span class="tag">Jan 2025</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">02</div>
+        <div class="project-info">
+          <div class="award">Excellence Prize (2nd)</div>
+          <h3>2024 Ideathon - Mental Health App</h3>
+          <p>정신 건강 관리 및 심리적 웰빙을 위한 모바일 애플리케이션 컨셉을 개발하고 발표했습니다.</p>
+          <div class="tags">
+            <span class="tag">Mobile App</span>
+            <span class="tag">Mental Health</span>
+            <span class="tag">July 2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-thumb">03</div>
+        <div class="project-info">
+          <h3>2022 Super Challenge Hackathon - Recycling App</h3>
+          <p>바코드 인식을 활용하여 올바른 분리수거 정보를 제공하는 모바일 애플리케이션을 개발했습니다.</p>
+          <div class="tags">
+            <span class="tag">Mobile App</span>
+            <span class="tag">Barcode</span>
+            <span class="tag">Jan 2022</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <p class="section-title">Experience</p>
+    <h2 class="heading">경력 & 활동</h2>
+    <div class="timeline fade-in">
+      <div class="timeline-item">
+        <span class="tl-tag">Internship</span>
+        <div class="period">2026.03 - 2026.06</div>
+        <h3>ICT Project Intern</h3>
+        <div class="company">Weven Inc. | Seoul</div>
+        <p>AI 웹 빌더 에디터 'Zaemit' 기획 및 개발 참여. <br>고객 페인포인트, 경쟁사 분석을 통한 UI/UX 개선 전략 수립 및 기획.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="tl-tag">Teaching</span>
+        <div class="period">Spring 2025</div>
+        <h3>Teaching Assistant</h3>
+        <div class="company">CSE4313-002, 003 | Inha Univ.</div>
+        <p>컴퓨터공학과 수업 조교 활동.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="tl-tag">Research</span>
+        <div class="period">2025.01 - 2025.08</div>
+        <h3>Undergraduate Researcher</h3>
+        <div class="company">Computer Intelligence Security Lab | Inha Univ.</div>
+        <p>소프트웨어 보안 취약점 논문 5편+ 리뷰 및 분석.<br> 연구 기초 역량을 형성하고 HCI/게임 연구로 확장.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="tl-tag">Military</span>
+        <div class="period">2022.06 - 2023.12</div>
+        <h3>Military Service</h3>
+        <div class="company">The 8th Maneuver Division, ROKA | Yangju</div>
+        <p>분대장 및 통신병(병장) 복무.</p>
+      </div>
+      <div class="timeline-item">
+        <span class="tl-tag">Education</span>
+        <div class="period">2021 - present</div>
+        <h3>B.S. Computer Science Engineering</h3>
+        <div class="company">Inha University | Incheon</div>
+        <p>컴퓨터공학과 재학 중.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Awards -->
+  <section id="awards">
+    <p class="section-title">Honors & Awards</p>
+    <h2 class="heading">수상 & 장학</h2>
+    <div class="awards-grid fade-in">
+      <div class="award-card">
+        <h3>Academic Excellence Scholarship</h3>
+        <div class="meta">Inha University</div>
+        <div class="highlight">6 times (Spring 2022 - Fall 2025)</div>
+      </div>
+      <div class="award-card">
+        <h3>Academic Excellence Award</h3>
+        <div class="meta">Inha University</div>
+        <div class="highlight">2 times (Fall 2024, Fall 2025)</div>
+      </div>
+      <div class="award-card">
+        <h3>2025 GreenTech Globalthon</h3>
+        <div class="meta">GDGoC</div>
+        <div class="highlight">Honorable Mention</div>
+      </div>
+      <div class="award-card">
+        <h3>2024 Ideathon</h3>
+        <div class="meta">Inha University, Dept. of Computer Engineering</div>
+        <div class="highlight">Excellence Prize (2nd)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <p class="section-title">Contact</p>
+    <h2>Get in Touch</h2>
+    <p>새로운 기회나 협업, 연구 관련 문의는 언제든 환영합니다.</p>
+    <div class="contact-links fade-in">
+      <a href="mailto:kdh020102@gmail.com" class="contact-link">kdh020102@naver.com</a>
+      <a href="tel:+821034273810" class="contact-link">(+82) 10-3427-3810</a>
+      <a href="https://github.com/KwakDonghun" class="contact-link">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2026 Donghun Kwak. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
